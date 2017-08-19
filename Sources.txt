@@ -1,0 +1,46 @@
+Sources used for the project :
+
+Sources:
+    
+1. Map Features documentation : http://wiki.openstreetmap.org/wiki/Map_Features#Shop
+
+2. How to sort a dictionary by value : https://www.saltycrane.com/blog/2007/09/how-to-sort-python-dictionary-by-keys/
+
+3. Lviv Postal Indexes : http://services.ukrposhta.com/postindex_new/Default.aspx 
+
+4. Move element inside the list https://stackoverflow.com/questions/3173154/move-an-item-inside-a-list
+
+5. Traslit documentation : http://pythonhosted.org/transliterate/
+
+6. Convert string to unicode in Python : https://stackoverflow.com/questions/4182603/how-to-convert-a-string-to-utf-8-in-python/19230566#19230566
+
+7. Convert list to string: https://stackoverflow.com/questions/5618878/how-to-convert-list-to-string
+
+8. Check the encoding with ASCII : https://stackoverflow.com/questions/196345/how-to-check-if-a-string-in-python-is-in-ascii
+
+9. Searching text between tags in BS : https://www.crummy.com/software/BeautifulSoup/bs4/doc/#searching-the-tree
+
+10. Web scraping from multiple pages: https://www.dataquest.io/blog/web-scraping-beautifulsoup/
+
+11. Capitalize a string : https://www.dotnetperls.com/lower-python
+
+12. How to do re.compile() with Python list : https://stackoverflow.com/questions/6750240/how-to-do-re-compile-with-a-list-in-python
+
+13. Comprehensice lists in Python : http://www.pythonforbeginners.com/basics/list-comprehensions-in-python
+
+14. Convert string to lowercase in Python : https://stackoverflow.com/questions/6797984/how-to-convert-string-to-lowercase-in-python
+
+15. Python String replace() Method: https://www.tutorialspoint.com/python/string_replace.htm
+
+15. Writting into csv file in Python : https://stackoverflow.com/questions/2084069/create-a-csv-file-with-values-from-a-python-list
+
+16. Solving UnicodeEncodeError while writting into csv : https://stackoverflow.com/questions/29876278/python-error-unicodeencodeerror-ascii-codec-cant-encode-character-u-u2026
+
+17. Reading csv to Python list: https://stackoverflow.com/questions/24662571/python-import-csv-to-list
+
+18. How to get the size of the file in Python: https://stackoverflow.com/questions/2104080/how-to-check-file-size-in-python
+
+19. Small function to convert bytes to other units : https://gist.github.com/shawnbutts/3906915
+
+20. Documentation on MongoDB $or logical operator: https://docs.mongodb.com/manual/reference/operator/query/or/
+

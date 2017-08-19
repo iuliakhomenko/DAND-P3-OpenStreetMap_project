@@ -1,0 +1,368 @@
+﻿body,input,select
+{
+	background-color: #FFFFFF; 
+	margin: 0; 
+	padding: 0; 
+	font-family: verdana; 
+	font-size: small;
+	color: #404040;
+	vertical-align:top;
+}
+
+ input, select,textarea, file 
+{
+ border: solid 1px grey;	
+}
+
+img {border: none 0px white;}
+
+A:link
+{
+	color: blue;
+	text-decoration:underline;
+}       /* unvisited link */
+A:visited { color: purple; text-decoration:underline;}   /* visited links */
+A:active { text-decoration:none; }    /* active links */
+
+UL {padding: 0 0 0 0; margin: 0 0 0 40;}
+HR {color: #C0C0C0}
+td	{	
+	font-size: small;
+	border:none;	
+}
+
+
+div { z-index:10; }
+
+.ih1 
+{
+	background-image:url(Images/expand2.jpg);
+	background-repeat:no-repeat;
+	background-color:White;
+	z-index:100000;
+	padding:10px 20px;
+	margin:2px;
+		background-color: #e0f1ff;
+	border-bottom: solid 1px lightgrey; 
+	border-top: none 0px white; 
+	border-right: none 0px white; 
+	border-left: none 0px white; 
+	color: #404040;	
+	font-size:small;
+	font-weight: bold;
+	border-radius: .5em;           
+	-moz-border-radius: .5em;
+	 }
+	 
+	 
+.ih1:hover
+{
+	background-image:url(Images/expand.jpg);
+	padding:10px 16px;
+	cursor:pointer; 
+	
+}	 
+
+.id2
+{
+	position:relative;
+	padding:5px;
+	border-color:transparent;
+	border-width:5px;
+	
+	
+	}
+
+
+.copy	{	
+	font-size: smaller;
+	color : #043475;
+	padding-left : 5px;
+}
+	/*******************************  MENU  *******************************/
+.bold
+ 	{
+	color: #404040;	
+	font-size:small;
+	font-weight: bold;
+	vertical-align: middle;
+	padding: 2px 2px 2px 5px;	
+	text-align : left;
+	BACKGROUND-COLOR: #e0f1ff;
+	border: lightgrey 1px solid; 
+}
+ h3
+ 	{
+	color:black;	
+	font-size:11px;
+	vertical-align: middle;
+	padding-left : 0px;
+	padding-right : 2px;
+	padding-top : 5px;
+	padding-bottom : 5px;
+	text-align : left;
+	background : #dae8f9;
+}
+.black
+ 	{
+	color:black;	
+	font-size:11px;
+	vertical-align: middle;
+	padding-left : 0px;
+	padding-right : 2px;
+	padding-top : 2px;
+	padding-bottom : 2px;
+	text-align : left;
+	background : #dae8f9;
+}
+
+
+.red
+ 	{
+	color:black;	
+	font-size:11px;
+	vertical-align: middle;
+	padding-left : 5px;
+	padding-right : 5px;
+	text-align : justify;
+	vertical-align:top;
+	background : #dae8f9;
+}
+/*******************************  LINKS   *****************************************/
+/*a.black
+ 	{
+	color:#0052b0;
+	font-family:verdana;
+	font-size:11px;
+	vertical-align: middle;
+	padding-left : 5px;
+	padding-right : 2px;
+	text-align : left;
+	text-decoration : underline;
+}*/
+.black a, 
+a.black
+ 	{
+	color:#0052b0;	
+	vertical-align: middle;
+	font-weight:bold;
+	font-size:11px;		
+	text-align : left;
+	background : #dae8f9;
+	padding-left : 5px;	
+	text-decoration:underline;
+}
+
+a.black:hover
+.black a:hover
+ 	{
+	color:#043475;		
+	text-decoration : none;
+}
+a.red
+{
+	color:black;	
+	text-decoration : underline;
+}
+a.red:hover
+{
+	color: blue;			
+	text-decoration : none;
+}
+a.underline
+{
+	color: #043475;
+	text-decoration : underline;
+	cursor:hand;
+	padding-left : 2px;
+	margin-left : 2px;
+}
+
+a.underline:hover{
+	color: #CC0000;
+	text-decoration : underline;
+	cursor:hand;
+	padding-left : 2px;
+	margin-left : 2px;
+}
+
+.Button
+{
+	/*border: silver 1px solid;	
+	font-size: 11px;
+	color: #303030;*/
+	height:20px;
+	border: silver 1px solid;
+	font-size: 11px;
+	color: #303030;
+	background-image: url(Images/btn.png);
+	background-repeat: repeat-x;
+}
+
+th
+{
+	font-size: 15pt;
+}
+
+
+.grid 
+{
+	font-size: 10pt;
+	color:#404040;
+	padding:5px;
+}
+.grid  th
+{
+	font-size: 10pt;
+	
+}
+
+.grid td
+{width: 100px;
+	padding:5px;
+	
+	}
+
+.divtopmenu {
+	margin-top: 0px; margin-left: 0px; 	
+	padding-top:140px;	
+	color:#0052b0;
+	font-weight:bold;	
+	height:35px;
+	max-height:35px;
+	padding-left:5px;	
+	white-space:nowrap;
+	vertical-align:bottom;
+	width: 100%; 
+	border: none 0px; 
+	
+}
+
+h1 
+{	
+	margin-bottom: 0px;	
+	color:#0052b0;
+	font-weight:bold;
+	/*text-align:center;	*/
+	padding-left:10px;
+	font-size:12pt;
+}
+
+.leftTitle {
+	color: #003b7f; 
+	font:bold 12px trebuchet, arial, sans-serif;	
+	background-color:#dae8f9;
+	padding: 10px 10px 10px 25px;
+	
+}
+
+.maintable table
+{
+	border: none 0px white; 
+	/* border: solid 1px lightgrey ; 	 */
+	margin:0px;
+	padding:0px;
+	font-size:small;	 
+	
+	}
+
+.maintable td
+{	 
+	 border-bottom: none 0; 
+	 /* border: solid 1px lightgrey ; 	 */
+	 border: none 0px white; 	 
+	 margin:0px;
+	 padding: 5px 5px 0px 5px;
+	 font-size:small;
+	 vertical-align:top;
+	 text-align:justify;
+	 
+	}
+.maintable th
+ 	{
+	color: #404040;	
+	font-size:small;
+	font-weight: bold;
+	vertical-align: middle;
+	padding: 2px 2px 2px 5px;	
+	text-align : left;	
+	background-color: #e0f1ff;
+	border-bottom: solid 1px lightgrey; 
+	border-top: none 0px white; 
+	border-right: none 0px white; 
+	border-left: none 0px white; 
+}
+.tb table
+	{
+	border: none 0px; 	
+	margin:0;
+	padding:0;
+	}
+	
+.tb td
+	{
+	border: none 0px; 	
+	margin:0;
+	padding: 0;	
+	}
+
+	
+.hl {color:Blue; font-size:small;}
+.detview{font-size:small; font-weight:normal;}
+.detview th { background-color:Lime;}
+.tdbutton {text-align:center; padding-bottom:5px; margin-bottom:5px; width:100%; }
+
+
+#white 
+{
+	color: white;
+}
+#content
+{
+	BACKGROUND-IMAGE: url(Images/ukrposhta-header_bg.jpg);background-repeat:no-repeat; padding: 0px; margin: 0px;text-align:left; vertical-align:top;
+	}
+	
+#top
+{
+	height:180px;vertical-align:bottom;
+	max-height:180px;
+	}
+	
+	#bottom {
+  border-top: 2px solid #93C4F3;
+  padding: 20px 0 10px;
+  margin-top: 250px;
+}
+#bottom .center p {
+  margin: 0 0 20px;
+}
+#bottom .center {
+  float: left;
+}
+
+#bottom .left {
+  float: left;
+  width: 200px;
+}
+
+#bottom .right {
+  float: right;
+  line-height: 1.4em;
+  text-align: right;
+  width: 300px;
+}
+
+
+#ctl00_ContentPlaceHolder1_chblDays td
+{ padding-left:0px; padding-right:0px; margin:0px; border: solid 0px white;}
+
+#ctl00_ContentPlaceHolder1_chblDays input
+{
+	border: none 0px white;
+}
+
+#ctl00_ContentPlaceHolder1_rdlStreetType 
+input
+{
+	border: none 0px white;
+}

@@ -1,0 +1,951 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0056)http://services.ukrposhta.com/postindex_new/Default.aspx -->
+<html xmlns="http://www.w3.org/1999/xhtml" class="gr__services_ukrposhta_com"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Поштові індекси</title><link href="./post_codes_lviv_files/Styles.css" rel="stylesheet" type="text/css"><link rel="shortcut icon" type="image/x-icon" href="http://services.ukrposhta.com/postindex_new/images/favicon.ico"><meta name="description" content="Пошук поштових індексів по вулицях, по місцезнаходженню. "><meta name="keywords" content="почтовые индексы,почтовые индексы по улице, пошук індексів, почта индексы, пошта індекси, отделения почтовой связи, поиск индексов, график работы отделений связи"><meta name="google-site-verification" content="e_EI305eCvLQBVjbZqIFzG-mMZtBtf8ndvv0Yn0me8E">
+     
+     <script src="./post_codes_lviv_files/jsapi" type="text/javascript"></script>
+    <script src="./post_codes_lviv_files/maps" type="text/javascript"></script>
+    <script type="text/javascript">
+    <!--
+function initialize() 
+{        
+	if (GBrowserIsCompatible()) 
+	{
+	    var map_canvas= document.getElementById("map_canvas");
+	    if (map_canvas != null)
+	    {
+	        
+		    var map = new GMap2(map_canvas);				
+		    var hdLat  = document.getElementById("ctl00_ContentPlaceHolder1_hdLat");
+		    var hdLon =  document.getElementById("ctl00_ContentPlaceHolder1_hdLon");
+		    if (hdLat != null ) 
+		        {
+		        if (hdLat.value=="")
+		        { 
+        		    
+		            document.getElementById("map_canvas").style.visibility = "hidden";
+		            document.getElementById("map_canvas").style.height=0;
+		        }
+		        else
+		        {
+    		        var  point =new GLatLng(parseFloat(hdLat.value),parseFloat(hdLon.value));    		
+		            //var blueIcon = new GIcon();
+		            //blueIcon.iconSize = new GSize(12, 20);
+
+                    //blueIcon.image = "http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png";
+                        
+                    // Настройка объекта GMarkerOptions
+                    //markerOptions = { icon:blueIcon };
+                    
+
+		            map.setCenter(point, 16);	
+    	             map.setUIToDefault();
+        		        
+		           // map.openInfoWindow(map.getCenter(), document.createTextNode(document.getElementById("ctl00_ContentPlaceHolder1_hdOPZ").value));		
+                   
+                    map.addControl(new GSmallMapControl());
+                    map.addControl(new GMapTypeControl()); 
+                    map.addOverlay (new GMarker(point));
+                    map.enableContinuousZoom();	
+                    map.enableScrollWheelZoom();
+                }
+            }
+        }
+	}
+}
+//-->
+</script>
+<script type="text/javascript"><!--
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+//--></script><script src="./post_codes_lviv_files/ga.js" type="text/javascript"></script>
+<script type="text/javascript"><!--
+try {
+var pageTracker = _gat._getTracker("UA-11428381-4");
+pageTracker._trackPageview();
+} catch(err) {}
+//--></script>
+<script type="text/javascript" charset="UTF-8" src="./post_codes_lviv_files/common.js"></script><script type="text/javascript" charset="UTF-8" src="./post_codes_lviv_files/util.js"></script><script type="text/javascript" charset="UTF-8" src="./post_codes_lviv_files/stats.js"></script><script type="text/javascript">Sys.WebForms.PageRequestManager._addArrayElement('Page_Validators', document.getElementById("ctl00_ContentPlaceHolder1_RegularExpressionValidator1"));
+Sys.WebForms.PageRequestManager._addArrayElement('Page_Validators', document.getElementById("ctl00_ContentPlaceHolder1_validCity"));
+</script><script type="text/javascript">document.getElementById('ctl00_ContentPlaceHolder1_RegularExpressionValidator1')['controltovalidate'] = "ctl00_ContentPlaceHolder1_txtStreet"
+document.getElementById('ctl00_ContentPlaceHolder1_RegularExpressionValidator1')['focusOnError'] = "t"
+document.getElementById('ctl00_ContentPlaceHolder1_RegularExpressionValidator1')['errormessage'] = "Вкажіть не менше 3 літер"
+document.getElementById('ctl00_ContentPlaceHolder1_RegularExpressionValidator1')['display'] = "Dynamic"
+document.getElementById('ctl00_ContentPlaceHolder1_RegularExpressionValidator1')['validationGroup'] = "street"
+document.getElementById('ctl00_ContentPlaceHolder1_RegularExpressionValidator1')['evaluationfunction'] = "RegularExpressionValidatorEvaluateIsValid"
+document.getElementById('ctl00_ContentPlaceHolder1_RegularExpressionValidator1')['validationexpression'] = "(.|\\s){3,21}"
+document.getElementById('ctl00_ContentPlaceHolder1_validCity')['controltovalidate'] = "ctl00_ContentPlaceHolder1_txtCity"
+document.getElementById('ctl00_ContentPlaceHolder1_validCity')['focusOnError'] = "t"
+document.getElementById('ctl00_ContentPlaceHolder1_validCity')['errormessage'] = "Вкажіть не менше 3 літер"
+document.getElementById('ctl00_ContentPlaceHolder1_validCity')['display'] = "Dynamic"
+document.getElementById('ctl00_ContentPlaceHolder1_validCity')['validationGroup'] = "city"
+document.getElementById('ctl00_ContentPlaceHolder1_validCity')['evaluationfunction'] = "RegularExpressionValidatorEvaluateIsValid"
+document.getElementById('ctl00_ContentPlaceHolder1_validCity')['validationexpression'] = "(.|\\s){3,21}"
+</script><script type="text/javascript">
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        </script><script type="text/javascript">
+document.getElementById('ctl00_ContentPlaceHolder1_RegularExpressionValidator1').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('ctl00_ContentPlaceHolder1_RegularExpressionValidator1'));
+}
+</script><script type="text/javascript">
+document.getElementById('ctl00_ContentPlaceHolder1_validCity').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('ctl00_ContentPlaceHolder1_validCity'));
+}
+</script><script type="text/javascript">Array.add(Sys.WebForms.PageRequestManager.getInstance()._onSubmitStatements, function() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+
+return true;
+});
+</script><script type="text/javascript">Sys.WebForms.PageRequestManager._addArrayElement('Page_Validators', document.getElementById("ctl00_ContentPlaceHolder1_RegularExpressionValidator1"));
+Sys.WebForms.PageRequestManager._addArrayElement('Page_Validators', document.getElementById("ctl00_ContentPlaceHolder1_validCity"));
+</script><script type="text/javascript">document.getElementById('ctl00_ContentPlaceHolder1_RegularExpressionValidator1')['controltovalidate'] = "ctl00_ContentPlaceHolder1_txtStreet"
+document.getElementById('ctl00_ContentPlaceHolder1_RegularExpressionValidator1')['focusOnError'] = "t"
+document.getElementById('ctl00_ContentPlaceHolder1_RegularExpressionValidator1')['errormessage'] = "Вкажіть не менше 3 літер"
+document.getElementById('ctl00_ContentPlaceHolder1_RegularExpressionValidator1')['display'] = "Dynamic"
+document.getElementById('ctl00_ContentPlaceHolder1_RegularExpressionValidator1')['validationGroup'] = "street"
+document.getElementById('ctl00_ContentPlaceHolder1_RegularExpressionValidator1')['evaluationfunction'] = "RegularExpressionValidatorEvaluateIsValid"
+document.getElementById('ctl00_ContentPlaceHolder1_RegularExpressionValidator1')['validationexpression'] = "(.|\\s){3,21}"
+document.getElementById('ctl00_ContentPlaceHolder1_validCity')['controltovalidate'] = "ctl00_ContentPlaceHolder1_txtCity"
+document.getElementById('ctl00_ContentPlaceHolder1_validCity')['focusOnError'] = "t"
+document.getElementById('ctl00_ContentPlaceHolder1_validCity')['errormessage'] = "Вкажіть не менше 3 літер"
+document.getElementById('ctl00_ContentPlaceHolder1_validCity')['display'] = "Dynamic"
+document.getElementById('ctl00_ContentPlaceHolder1_validCity')['validationGroup'] = "city"
+document.getElementById('ctl00_ContentPlaceHolder1_validCity')['evaluationfunction'] = "RegularExpressionValidatorEvaluateIsValid"
+document.getElementById('ctl00_ContentPlaceHolder1_validCity')['validationexpression'] = "(.|\\s){3,21}"
+</script><script type="text/javascript">
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        </script><script type="text/javascript">
+document.getElementById('ctl00_ContentPlaceHolder1_RegularExpressionValidator1').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('ctl00_ContentPlaceHolder1_RegularExpressionValidator1'));
+}
+</script><script type="text/javascript">
+document.getElementById('ctl00_ContentPlaceHolder1_validCity').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('ctl00_ContentPlaceHolder1_validCity'));
+}
+</script><script type="text/javascript">Array.add(Sys.WebForms.PageRequestManager.getInstance()._onSubmitStatements, function() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+
+return true;
+});
+</script><script type="text/javascript">Sys.WebForms.PageRequestManager._addArrayElement('Page_Validators', document.getElementById("ctl00_ContentPlaceHolder1_RegularExpressionValidator1"));
+Sys.WebForms.PageRequestManager._addArrayElement('Page_Validators', document.getElementById("ctl00_ContentPlaceHolder1_validCity"));
+</script><script type="text/javascript">document.getElementById('ctl00_ContentPlaceHolder1_RegularExpressionValidator1')['controltovalidate'] = "ctl00_ContentPlaceHolder1_txtStreet"
+document.getElementById('ctl00_ContentPlaceHolder1_RegularExpressionValidator1')['focusOnError'] = "t"
+document.getElementById('ctl00_ContentPlaceHolder1_RegularExpressionValidator1')['errormessage'] = "Вкажіть не менше 3 літер"
+document.getElementById('ctl00_ContentPlaceHolder1_RegularExpressionValidator1')['display'] = "Dynamic"
+document.getElementById('ctl00_ContentPlaceHolder1_RegularExpressionValidator1')['validationGroup'] = "street"
+document.getElementById('ctl00_ContentPlaceHolder1_RegularExpressionValidator1')['evaluationfunction'] = "RegularExpressionValidatorEvaluateIsValid"
+document.getElementById('ctl00_ContentPlaceHolder1_RegularExpressionValidator1')['validationexpression'] = "(.|\\s){3,21}"
+document.getElementById('ctl00_ContentPlaceHolder1_validCity')['controltovalidate'] = "ctl00_ContentPlaceHolder1_txtCity"
+document.getElementById('ctl00_ContentPlaceHolder1_validCity')['focusOnError'] = "t"
+document.getElementById('ctl00_ContentPlaceHolder1_validCity')['errormessage'] = "Вкажіть не менше 3 літер"
+document.getElementById('ctl00_ContentPlaceHolder1_validCity')['display'] = "Dynamic"
+document.getElementById('ctl00_ContentPlaceHolder1_validCity')['validationGroup'] = "city"
+document.getElementById('ctl00_ContentPlaceHolder1_validCity')['evaluationfunction'] = "RegularExpressionValidatorEvaluateIsValid"
+document.getElementById('ctl00_ContentPlaceHolder1_validCity')['validationexpression'] = "(.|\\s){3,21}"
+</script><script type="text/javascript">
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        </script><script type="text/javascript">
+document.getElementById('ctl00_ContentPlaceHolder1_RegularExpressionValidator1').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('ctl00_ContentPlaceHolder1_RegularExpressionValidator1'));
+}
+</script><script type="text/javascript">
+document.getElementById('ctl00_ContentPlaceHolder1_validCity').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('ctl00_ContentPlaceHolder1_validCity'));
+}
+</script><script type="text/javascript">Array.add(Sys.WebForms.PageRequestManager.getInstance()._onSubmitStatements, function() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+
+return true;
+});
+</script><script type="text/javascript">Sys.WebForms.PageRequestManager._addArrayElement('Page_Validators', document.getElementById("ctl00_ContentPlaceHolder1_RegularExpressionValidator1"));
+Sys.WebForms.PageRequestManager._addArrayElement('Page_Validators', document.getElementById("ctl00_ContentPlaceHolder1_validCity"));
+</script><script type="text/javascript">document.getElementById('ctl00_ContentPlaceHolder1_RegularExpressionValidator1')['controltovalidate'] = "ctl00_ContentPlaceHolder1_txtStreet"
+document.getElementById('ctl00_ContentPlaceHolder1_RegularExpressionValidator1')['focusOnError'] = "t"
+document.getElementById('ctl00_ContentPlaceHolder1_RegularExpressionValidator1')['errormessage'] = "Вкажіть не менше 3 літер"
+document.getElementById('ctl00_ContentPlaceHolder1_RegularExpressionValidator1')['display'] = "Dynamic"
+document.getElementById('ctl00_ContentPlaceHolder1_RegularExpressionValidator1')['validationGroup'] = "street"
+document.getElementById('ctl00_ContentPlaceHolder1_RegularExpressionValidator1')['evaluationfunction'] = "RegularExpressionValidatorEvaluateIsValid"
+document.getElementById('ctl00_ContentPlaceHolder1_RegularExpressionValidator1')['validationexpression'] = "(.|\\s){3,21}"
+document.getElementById('ctl00_ContentPlaceHolder1_validCity')['controltovalidate'] = "ctl00_ContentPlaceHolder1_txtCity"
+document.getElementById('ctl00_ContentPlaceHolder1_validCity')['focusOnError'] = "t"
+document.getElementById('ctl00_ContentPlaceHolder1_validCity')['errormessage'] = "Вкажіть не менше 3 літер"
+document.getElementById('ctl00_ContentPlaceHolder1_validCity')['display'] = "Dynamic"
+document.getElementById('ctl00_ContentPlaceHolder1_validCity')['validationGroup'] = "city"
+document.getElementById('ctl00_ContentPlaceHolder1_validCity')['evaluationfunction'] = "RegularExpressionValidatorEvaluateIsValid"
+document.getElementById('ctl00_ContentPlaceHolder1_validCity')['validationexpression'] = "(.|\\s){3,21}"
+</script><script type="text/javascript">
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        </script><script type="text/javascript">
+document.getElementById('ctl00_ContentPlaceHolder1_RegularExpressionValidator1').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('ctl00_ContentPlaceHolder1_RegularExpressionValidator1'));
+}
+</script><script type="text/javascript">
+document.getElementById('ctl00_ContentPlaceHolder1_validCity').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('ctl00_ContentPlaceHolder1_validCity'));
+}
+</script><script type="text/javascript">Array.add(Sys.WebForms.PageRequestManager.getInstance()._onSubmitStatements, function() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+
+return true;
+});
+</script></head>
+<body cellspacing="0" cellpadding="0" onload="initialize()" onunload="GUnload()" data-gr-c-s-loaded="true">
+<center>
+<form name="aspnetForm" method="post" action="http://services.ukrposhta.com/postindex_new/Default.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="aspnetForm" style="width:1003px;vertical-align:top;">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJODQ2MDk5MzU3D2QWAmYPZBYEAgEPZBYCAgQPFgIeB2NvbnRlbnQFadCf0L7RiNGD0Log0L/QvtGI0YLQvtCy0LjRhSDRltC90LTQtdC60YHRltCyINC/0L4g0LLRg9C70LjRhtGP0YUsINC/0L4g0LzRltGB0YbQtdC30L3QsNGF0L7QtNC20LXQvdC90Y4uIGQCAw9kFgQCAQ8QZGQWAWZkAhMPZBYIAgUPD2QWAh4Fc3R5bGUFLXBvc2l0aW9uOnJlbGF0aXZlO292ZXJmbG93OmhpZGRlbjtoZWlnaHQ6MHB4OxYCAgEPZBYCZg9kFgICAQ8PFgIeBFRleHRlZGQCCQ8PZBYCHwEFG292ZXJmbG93OmhpZGRlbjtoZWlnaHQ6MHB4OxYKAgEPZBYCZg9kFgICAQ8QDxYCHgtfIURhdGFCb3VuZGdkEBUcHdCe0LHQtdGA0ZbRgtGMINC+0LHQu9Cw0YHRgtGMMNCQ0LLRgtC+0L3QvtC80L3QsCDQoNC10YHQv9GD0LHQu9GW0LrQsCDQmtGA0LjQvBLQktGW0L3QvdC40YbRjNC60LAS0JLQvtC70LjQvdGB0YzQutCwINCU0L3RltC/0YDQvtC/0LXRgtGA0L7QstGB0YzQutCwENCU0L7QvdC10YbRjNC60LAW0JbQuNGC0L7QvNC40YDRgdGM0LrQsBjQl9Cw0LrQsNGA0L/QsNGC0YHRjNC60LAU0JfQsNC/0L7RgNGW0LfRjNC60LAh0IbQstCw0L3Qvi3QpNGA0LDQvdC60ZbQstGB0YzQutCwCNCa0LjRl9CyENCa0LjRl9Cy0YHRjNC60LAc0JrRltGA0L7QstC+0LPRgNCw0LTRgdGM0LrQsBLQm9GD0LPQsNC90YHRjNC60LAS0JvRjNCy0ZbQstGB0YzQutCwGNCc0LjQutC+0LvQsNGX0LLRgdGM0LrQsA7QntC00LXRgdGM0LrQsBTQn9C+0LvRgtCw0LLRgdGM0LrQsBTQoNGW0LLQvdC10L3RgdGM0LrQsBbQodC10LLQsNGB0YLQvtC/0L7Qu9GMDtCh0YPQvNGB0YzQutCwGtCi0LXRgNC90L7Qv9GW0LvRjNGB0YzQutCwFNCl0LDRgNC60ZbQstGB0YzQutCwFNCl0LXRgNGB0L7QvdGB0YzQutCwFtCl0LzQtdC7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QgIIZGQCBw8QZGQWAWZkAhUPZBYIAgEPEA8WAh8DZ2QQFQcE0L/QvQTQstGCBNGB0YAE0YfRggTQv9GCBNGB0LEE0L3QtBUHATEBMgEzATQBNQE2ATcUKwMHZ2dnZ2dnZ2RkAgMPDxYCHglNYXhMZW5ndGhmZGQCBQ8WEB4ZQ3VsdHVyZURlY2ltYWxQbGFjZWhvbGRlcgUBLh4WQ3VsdHVyZVRpbWVQbGFjZWhvbGRlcgUBOh4bQ3VsdHVyZVRob3VzYW5kc1BsYWNlaG9sZGVyBQEsHg5DdWx0dXJlRGF0ZUZNVAUDTURZHhZDdWx0dXJlQU1QTVBsYWNlaG9sZGVyBQVBTTtQTR4WQ3VsdHVyZURhdGVQbGFjZWhvbGRlcgUBLx4gQ3VsdHVyZUN1cnJlbmN5U3ltYm9sUGxhY2Vob2xkZXIFASQeB0N1bHR1cmUFBWVuLVVTZAIHDw9kFiweDlRvb2x0aXBNZXNzYWdlZR4TTWluaW11bVZhbHVlTWVzc2FnZWUeE01heGltdW1WYWx1ZU1lc3NhZ2VlHgpWYWxpZEVtcHR5BQR0cnVlHgxNaW5pbXVtVmFsdWVlHg1UaW1lU2VwYXJhdG9yBQE6HhhDbGllbnRWYWxpZGF0aW9uRnVuY3Rpb25lHhBMYXN0TWFza1Bvc2l0aW9uBQE2HhFGaXJzdE1hc2tQb3NpdGlvbgUBMB4MTWF4aW11bVZhbHVlZR4MSXNNYXNrZWRFZGl0BQR0cnVlHghDc3NGb2N1cwUPTWFza2VkRWRpdEZvY3VzHhNJbnZhbGlkVmFsdWVNZXNzYWdlBR7QndC1INCy0ZbRgNC90LjQuSDRhNC+0YDQvNCw0YIeD1RhcmdldFZhbGlkYXRvcgUhY3RsMDBfQ29udGVudFBsYWNlSG9sZGVyMV90eHRUaW1lHhRJbnZhbGlkVmFsdWVDc3NDbGFzcwUPTWFza2VkRWRpdEVycm9yHg9Dc3NCbHVyTmVnYXRpdmUFFk1hc2tlZEVkaXRCbHVyTmVnYXRpdmUeCkFtUG1TeW1ib2wFBUFNO1BNHhRWYWxpZGF0aW9uRXhwcmVzc2lvbmUeEENzc0ZvY3VzTmVnYXRpdmUFF01hc2tlZEVkaXRGb2N1c05lZ2F0aXZlHhFFbXB0eVZhbHVlTWVzc2FnZQUm0J3QtdC+0LHRhdGW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">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="./post_codes_lviv_files/WebResource.axd" type="text/javascript"></script>
+
+
+<script src="./post_codes_lviv_files/ScriptResource.axd" type="text/javascript"></script>
+<script src="./post_codes_lviv_files/WebResource(1).axd" type="text/javascript"></script>
+<script src="./post_codes_lviv_files/ScriptResource(1).axd" type="text/javascript"></script>
+<script src="./post_codes_lviv_files/ScriptResource(2).axd" type="text/javascript"></script>
+<script src="./post_codes_lviv_files/ScriptResource(3).axd" type="text/javascript"></script>
+<script src="./post_codes_lviv_files/ScriptResource(4).axd" type="text/javascript"></script>
+<script src="./post_codes_lviv_files/ScriptResource(5).axd" type="text/javascript"></script>
+<script src="./post_codes_lviv_files/ScriptResource(6).axd" type="text/javascript"></script>
+<script src="./post_codes_lviv_files/ScriptResource(7).axd" type="text/javascript"></script>
+<script src="./post_codes_lviv_files/ScriptResource(8).axd" type="text/javascript"></script>
+<script src="./post_codes_lviv_files/ScriptResource(9).axd" type="text/javascript"></script>
+<script src="./post_codes_lviv_files/ScriptResource(10).axd" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+    
+
+  <div id="content">
+  <div style="vertical-align: bottom; text-align: center;">
+        </div>
+    <div id="top">
+    <table cellspacing="0" cellpadding="0" class="divtopmenu">
+    <tbody><tr>
+    <td style="text-align:right; padding-left:15px;width:10px;">        
+    <a href="http://ukrposhta.com/" id="ctl00_hrefGoto" title="До сайту Укрпошти"><img border="0" src="./post_codes_lviv_files/menu_small_home.gif"></a>
+    </td><td style="text-align:left; padding-left:10px;width:170px;">
+    <a href="http://www.ukrposhta.com/www/upost.nsf/%28map%29?OpenView&amp;Start=1&amp;Count=1000&amp;" id="ctl00_hrefLinks" title="Мапа сайту"><img border="0" src="./post_codes_lviv_files/menu_small_map.gif"></a></td>
+    <td>
+    <h1>Поштові індекси та відділення поштового зв’язку України   
+        </h1>          
+        </td>
+    
+  </tr>
+  
+  
+</tbody></table>
+
+
+    </div>
+
+
+
+
+<table height="100%" align="left" bgcolor="#FFFFFF" width="99%" cellspacing="0" cellpadding="0" border="0">
+
+<tbody><tr>
+<td style="width: 180px;vertical-align:top;" valign="top">
+<div bgcolor="#dae8f9" height="500px">
+<table align="center" bgcolor="#FFFFFF" width="200" cellspacing="0" cellpadding="0" border="0">
+            <tbody><tr>
+			<td colspan="2" bgcolor="White" style="height: 1px"></td>
+			</tr>
+			
+			<tr>
+			<td colspan="2" bgcolor="#adc5ee" style="height: 3px"></td>
+			</tr>
+
+			<tr>		   
+		    <td id="ctl00_menutitle" colspan="2" class="leftTitle">
+		    
+			<span style="FONT-SIZE: 13px">Д</span>овідкова інформація
+            </td>
+ 
+			</tr>	
+			<tr>
+			
+		    <td class="black" style="height: 13px" colspan="2">                
+                <nobr><img src="./post_codes_lviv_files/strelka.gif" alt="" width="10px" height="10px" border="0/"><a id="ctl00_hlFindIndex" class="black" href="http://services.ukrposhta.com/postindex_new/Default.aspx" style="display:inline-block;height:100%;width:90%;">Поштові індекси</a></nobr><nobr></nobr></td>
+			</tr>			
+			<tr>
+		    <td class="black" style="height: 13px" colspan="2">
+                <nobr><img src="./post_codes_lviv_files/strelka.gif" alt="" width="10px" height="10px" border="0"><a id="ctl00_hlOPZ" class="black" href="http://services.ukrposhta.com/postindex_new/OPZList.aspx" style="display:inline-block;height:100%;width:90%;">Відділення зв’язку</a></nobr></td>
+			</tr> 
+			<tr>
+		
+		    <td class="black" style="height: 13px" colspan="2">
+               <nobr><img src="./post_codes_lviv_files/strelka.gif" alt="" width="10px" height="10px" border="0"><a id="ctl00_hlHelp" class="black" href="http://services.ukrposhta.com/postindex_new/Help.aspx" style="display:inline-block;height:100%;width:90%;">Допомога</a></nobr><nobr></nobr></td>
+			</tr>
+		
+			<tr>
+			<td colspan="2" bgcolor="#adc5ee" style="height: 3px"></td>
+			</tr>
+			 <tr>
+			<td colspan="2" height="1" bgcolor="White"></td>
+			</tr>
+			<tr><td id="ctl00_textAttention" style="height:105px;" colspan="2" class="red">
+                <br>
+                <br>
+                <br>
+                
+			</td>
+</tr>
+			<tr><td>
+<!-- reclama train ticket -->
+</td></tr>
+   
+</tbody></table>  
+</div>   
+</td>
+<td bgcolor="#ffffFF" style="padding-left:10px; padding-top:0px; vertical-align:top">
+
+ <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ContentPlaceHolder1$ScriptManager1', document.getElementById('aspnetForm'));
+Sys.WebForms.PageRequestManager.getInstance()._updateControls(['tctl00$ContentPlaceHolder1$UpdatePanel0','tctl00$ContentPlaceHolder1$UpdatePanel4','tctl00$ContentPlaceHolder1$UpdatePanel5','tctl00$ContentPlaceHolder1$UpdatePanel6','tctl00$ContentPlaceHolder1$UpdatePanel1','tctl00$ContentPlaceHolder1$UpdatePanel2','tctl00$ContentPlaceHolder1$UpdatePanel3'], ['ctl00$ContentPlaceHolder1$btnFind','ctl00$ContentPlaceHolder1$btnFindCity','ctl00$ContentPlaceHolder1$btnFindbyInd','ctl00$ContentPlaceHolder1$ddlCity','ctl00$ContentPlaceHolder1$ddlRegion','ctl00$ContentPlaceHolder1$ddlOblast','ctl00$ContentPlaceHolder1$txtIndex','ctl00$ContentPlaceHolder1$txtCity'], [], 90);
+//]]>
+</script>
+          
+ 
+            <div class="ih1" onclick="p_expand(&#39;ctl00_ContentPlaceHolder1_apg1&#39;,80)">
+            Пошук за індексом
+            </div>
+            <div id="ctl00_ContentPlaceHolder1_apg1" class="ih2" style="position:relative;overflow:hidden;height:0px;">
+	
+            
+            
+            
+            <br>
+        <table><tbody><tr>
+            <td style="text-align:center; padding-bottom:3px;">
+              <div id="ctl00_ContentPlaceHolder1_UpdatePanel0">
+                <input name="ctl00$ContentPlaceHolder1$txtIndex" type="text" maxlength="5" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$ContentPlaceHolder1$txtIndex\&#39;,\&#39;\&#39;)&#39;, 0)" onkeypress="if (WebForm_TextBoxKeyHandler(event) == false) return false;" id="ctl00_ContentPlaceHolder1_txtIndex" style="width:80px;">
+                <input type="submit" name="ctl00$ContentPlaceHolder1$btnFindbyInd" value="Показати" id="ctl00_ContentPlaceHolder1_btnFindbyInd" class="Button">
+              </div>
+            
+            
+            
+            
+            </td>       
+            <td>
+                Пошук здійснюється за п`ятизначним індексом</td>
+        </tr>
+        </tbody></table>
+
+        
+</div>
+        
+        <div class="ih1" onclick="p_expand(&#39;ctl00_ContentPlaceHolder1_apg2&#39;,400)">
+        Пошук за місцем розташування
+        
+        </div>
+        
+       
+        
+        
+       
+        <div id="ctl00_ContentPlaceHolder1_apg2" class="ih2" style="overflow: hidden; height: 0px;">
+	
+        <table>
+        
+        <tbody><tr>
+            <td>
+                <div id="ctl00_ContentPlaceHolder1_UpdatePanel4">
+<select name="ctl00$ContentPlaceHolder1$ddlOblast" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$ContentPlaceHolder1$ddlOblast\&#39;,\&#39;\&#39;)&#39;, 0)" id="ctl00_ContentPlaceHolder1_ddlOblast" style="width:100%;">
+	<option selected="selected" value="">Оберіть область</option>
+	<option value="500000012">Автономна Республіка Крим</option>
+	<option value="500000000">Вінницька</option>
+	<option value="500000001">Волинська</option>
+	<option value="500000003">Дніпропетровська</option>
+	<option value="500000004">Донецька</option>
+	<option value="500000005">Житомирська</option>
+	<option value="500000006">Закарпатська</option>
+	<option value="500000007">Запорізька</option>
+	<option value="500000008">Івано-Франківська</option>
+	<option value="500000009">Київ</option>
+	<option value="500000010">Київська</option>
+	<option value="500000011">Кіровоградська</option>
+	<option value="500000002">Луганська</option>
+	<option value="500000013">Львівська</option>
+	<option value="500000014">Миколаївська</option>
+	<option value="500000015">Одеська</option>
+	<option value="500000016">Полтавська</option>
+	<option value="1008302385100">Рівненська</option>
+	<option value="1008302385101">Севастополь</option>
+	<option value="500000018">Сумська</option>
+	<option value="500000019">Тернопільська</option>
+	<option value="500000020">Харківська</option>
+	<option value="500000021">Херсонська</option>
+	<option value="500000022">Хмельницька</option>
+	<option value="500000023">Черкаська</option>
+	<option value="500000025">Чернівецька</option>
+	<option value="500000024">Чернігівська</option>
+
+</select>
+
+                         
+</div>
+
+            </td>
+            <td rowspan="5">
+            <div>
+                Пошук індексу здійснюється за територіальним розташуванням, шляхом
+                вибору області до вибору конкретного району, населеного пункту.
+                <br>
+                <br>
+                
+                
+                
+                       
+        
+        <script type="text/javascript" language="javascript">
+            // Move an element directly on top of another element (and optionally
+            // make it the same size)
+            function Cover(bottom, top, ignoreSize) {
+                var location = Sys.UI.DomElement.getLocation(bottom);
+                top.style.position = 'absolute';
+                top.style.top = location.y + 'px';
+                top.style.left = location.x+ 'px';
+                if (!ignoreSize) {
+                    top.style.height = bottom.offsetHeight + 'px';
+                    top.style.width = bottom.offsetWidth + 'px';
+                }
+            }
+        </script>
+        
+          
+        
+        
+        </div>
+        
+        
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="ctl00_ContentPlaceHolder1_UpdatePanel5">
+<select name="ctl00$ContentPlaceHolder1$ddlRegion" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$ContentPlaceHolder1$ddlRegion\&#39;,\&#39;\&#39;)&#39;, 0)" id="ctl00_ContentPlaceHolder1_ddlRegion" disabled="disabled" style="width:100%;">
+	<option selected="selected" value="">Оберіть район</option>
+	<option value="2">Обласний центр</option>
+	<option value="1008302400771">Борислав</option>
+	<option value="1008302400772">Бродівський</option>
+	<option value="1008302400773">Буський</option>
+	<option value="1008302400774">Городоцький</option>
+	<option value="1008302400775">Дрогобицький</option>
+	<option value="33000001492853">Дрогобич</option>
+	<option value="1008302400776">Жидачівський</option>
+	<option value="1008302400777">Жовківський</option>
+	<option value="1008302400778">Золочівський</option>
+	<option value="1008302400779">Кам'янка-Бузький</option>
+	<option value="1008302400780">Львів</option>
+	<option value="1008302400781">Миколаївський</option>
+	<option value="33000001492845">Моршин</option>
+	<option value="1008302400782">Мостиський</option>
+	<option value="33000001492863">Новий Розділ</option>
+	<option value="1008302400783">Перемишлянський</option>
+	<option value="1008302400784">Пустомитівський</option>
+	<option value="1008302400785">Радехівський</option>
+	<option value="33000001492855">Самбір</option>
+	<option value="1008302400786">Самбірський</option>
+	<option value="1008302400787">Сколівський</option>
+	<option value="1008302400788">Сокальський</option>
+	<option value="1008302400789">Старосамбірський</option>
+	<option value="33000001492854">Стрий</option>
+	<option value="1008302400790">Стрийський</option>
+	<option value="1008302400791">Трускавець</option>
+	<option value="1008302400792">Турківський</option>
+	<option value="1008302400793">Червоноград</option>
+	<option value="1008302400794">Яворівський</option>
+
+</select>
+
+                         
+</div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="ctl00_ContentPlaceHolder1_UpdatePanel6">
+<select name="ctl00$ContentPlaceHolder1$ddlCity" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$ContentPlaceHolder1$ddlCity\&#39;,\&#39;\&#39;)&#39;, 0)" id="ctl00_ContentPlaceHolder1_ddlCity" disabled="disabled" style="width:100%;">
+	<option selected="selected" value="">Оберіть населений пункт</option>
+	<option value="1008302392292">Брюховичі</option>
+	<option value="1008302392293">Винники</option>
+	<option value="33000000106623">Рудно</option>
+
+</select>
+
+                         
+</div>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="width: 350px; padding:0">
+                <div id="ctl00_ContentPlaceHolder1_UpdatePanel1">
+<table class="tb"><tbody><tr><td style="padding-top:5px;"><span id="ctl00_ContentPlaceHolder1_lbStreet">Введіть назву вулиці<br><span style="font-size:smaller">(не менше трьох літер назви)</span></span> </td></tr><tr><td><input name="ctl00$ContentPlaceHolder1$txtStreet" type="text" maxlength="20" id="ctl00_ContentPlaceHolder1_txtStreet" disabled="disabled" style="background-color:Gainsboro;width:98%;"> <span id="ctl00_ContentPlaceHolder1_RegularExpressionValidator1" style="color:Red;display:none;">Вкажіть не менше 3 літер</span> </td></tr><tr><td style="FONT-SIZE: smaller"><table id="ctl00_ContentPlaceHolder1_rdlStreetType" disabled="disabled" border="0" style="border-color:White;border-width:0px;border-style:None;font-size:Smaller;width:100%;">
+	<tbody><tr>
+		<td><span disabled="disabled"><input id="ctl00_ContentPlaceHolder1_rdlStreetType_0" type="radio" name="ctl00$ContentPlaceHolder1$rdlStreetType" value="0" checked="checked" disabled="disabled"><label for="ctl00_ContentPlaceHolder1_rdlStreetType_0">Шукати задане буквосполучення на початку назви вулиці</label></span></td>
+	</tr><tr>
+		<td><span disabled="disabled"><input id="ctl00_ContentPlaceHolder1_rdlStreetType_1" type="radio" name="ctl00$ContentPlaceHolder1$rdlStreetType" value="1" disabled="disabled"><label for="ctl00_ContentPlaceHolder1_rdlStreetType_1">Шукати в будь-якому місці назви вулиці</label></span></td>
+	</tr>
+</tbody></table> </td></tr></tbody></table>
+</div>
+<br>
+        <div id="ctl00_ContentPlaceHolder1_pndHeaderAddition" style="cursor: pointer;">
+		
+             <div style="text-decoration:underline;">
+                 <input type="image" name="ctl00$ContentPlaceHolder1$imgHeaderAddition" id="ctl00_ContentPlaceHolder1_imgHeaderAddition" src="./post_codes_lviv_files/expand.jpg" alt="розгорнути" style="border-width:0px;">
+                 Додаткові параметри пошуку 
+             </div>
+        
+	</div>
+
+                
+        <div id="ctl00_ContentPlaceHolder1_pnlTimeWork" style="height: 0px; overflow: hidden; width: 350px; display: none;"><div id="" style="height: auto; overflow: hidden;">
+		<br><br>
+              <table border="1" width="100%">
+        <tbody><tr><td style="font-weight: bold;">Графік роботи</td>
+        <td>Дні роботи</td></tr>  
+         <tr><td></td><td>
+                <table id="ctl00_ContentPlaceHolder1_chblDays" cellspacing="0" cellpadding="0" border="0" style="border-color:#E0E0E0;border-width:1px;border-style:Solid;font-size:8px;border-collapse:collapse;">
+			<tbody><tr>
+				<td><input id="ctl00_ContentPlaceHolder1_chblDays_0" type="radio" name="ctl00$ContentPlaceHolder1$chblDays" value="1"><label for="ctl00_ContentPlaceHolder1_chblDays_0">пн</label></td><td><input id="ctl00_ContentPlaceHolder1_chblDays_1" type="radio" name="ctl00$ContentPlaceHolder1$chblDays" value="2"><label for="ctl00_ContentPlaceHolder1_chblDays_1">вт</label></td><td><input id="ctl00_ContentPlaceHolder1_chblDays_2" type="radio" name="ctl00$ContentPlaceHolder1$chblDays" value="3"><label for="ctl00_ContentPlaceHolder1_chblDays_2">ср</label></td><td><input id="ctl00_ContentPlaceHolder1_chblDays_3" type="radio" name="ctl00$ContentPlaceHolder1$chblDays" value="4"><label for="ctl00_ContentPlaceHolder1_chblDays_3">чт</label></td><td><input id="ctl00_ContentPlaceHolder1_chblDays_4" type="radio" name="ctl00$ContentPlaceHolder1$chblDays" value="5"><label for="ctl00_ContentPlaceHolder1_chblDays_4">пт</label></td><td><input id="ctl00_ContentPlaceHolder1_chblDays_5" type="radio" name="ctl00$ContentPlaceHolder1$chblDays" value="6"><label for="ctl00_ContentPlaceHolder1_chblDays_5">сб</label></td><td><input id="ctl00_ContentPlaceHolder1_chblDays_6" type="radio" name="ctl00$ContentPlaceHolder1$chblDays" value="7"><label for="ctl00_ContentPlaceHolder1_chblDays_6">нд</label></td>
+			</tr>
+		</tbody></table>
+                </td></tr>
+                 <tr><td></td><td>
+                       Час роботи<br>
+                       <span style="font-size:x-small">(формат: <em>99:99</em>)</span></td></tr>
+                       
+      <tr><td width="200"></td><td>
+        <input name="ctl00$ContentPlaceHolder1$txtTime" type="text" id="ctl00_ContentPlaceHolder1_txtTime" style="height:16px;width:130px;">
+        <input type="hidden" name="ctl00$ContentPlaceHolder1$MaskedEditExtenderTime_ClientState" id="ctl00_ContentPlaceHolder1_MaskedEditExtenderTime_ClientState">
+        <span id="ctl00_ContentPlaceHolder1_MaskedEditValidatorTime" tooltipmessage="" minimumvaluemessage="" maximumvaluemessage="" validempty="true" cssfocus="MaskedEditFocus" timeseparator=":" clientvalidationfunction="" ampmsymbol="AM;PM" firstmaskposition="0" maximumvalue="" lastmaskposition="6" ismaskededit="true" minimumvalue="" invalidvaluemessage="Не вірний формат" targetvalidator="ctl00_ContentPlaceHolder1_txtTime" invalidvaluecssclass="MaskedEditError" cssblurnegative="MaskedEditBlurNegative" validationexpression="" cssfocusnegative="MaskedEditFocusNegative" emptyvaluemessage="Необхідно ввести час" initialvalue="" evaluationfunction="MaskedEditValidatorTime" style="color:Red;display:none;"></span>
+            </td></tr></tbody></table>
+                       
+        
+	</div></div>
+                
+        <input type="hidden" name="ctl00$ContentPlaceHolder1$cpeProperties_ClientState" id="ctl00_ContentPlaceHolder1_cpeProperties_ClientState" value="true">
+         
+            </td>
+        </tr>        
+        <tr>
+            <td style="text-align:center; padding-bottom:3px;">
+                 <input type="submit" name="ctl00$ContentPlaceHolder1$btnFind" value="Показати" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$btnFind&quot;, &quot;&quot;, true, &quot;street&quot;, &quot;&quot;, false, false))" id="ctl00_ContentPlaceHolder1_btnFind" class="Button">                 
+                 <br>
+            </td>            
+        </tr>
+        
+</tbody></table>
+          
+</div>
+         
+         <div class="ih1" onclick="p_expand(&#39;ctl00_ContentPlaceHolder1_apg3&#39;,80)">
+         Пошук за назвою населеного пункту 
+         </div>
+          
+ <div id="ctl00_ContentPlaceHolder1_apg3" class="ih2" style="overflow: hidden; height: 80px;">
+	
+<table>        
+        
+        <tbody><tr>
+            <th colspan="2"><br></th>
+        </tr>
+        <tr>
+            <td style="width:350px">
+            
+                <div id="ctl00_ContentPlaceHolder1_UpdatePanel2">
+<input name="ctl00$ContentPlaceHolder1$txtCity" type="text" value="Львів" maxlength="20" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$ContentPlaceHolder1$txtCity\&#39;,\&#39;\&#39;)&#39;, 0)" onkeypress="if (WebForm_TextBoxKeyHandler(event) == false) return false;" id="ctl00_ContentPlaceHolder1_txtCity" style="width:95%;">
+
+                            <span id="ctl00_ContentPlaceHolder1_validCity" style="color:Red;display:none;">Вкажіть не менше 3 літер</span>
+
+                    
+</div>
+                
+            </td>
+            
+
+            
+            <td rowspan="2" valign="top" style="padding-top:10px">Пошук здійснюється за назвою населеного пункту</td>
+        </tr>
+        <tr>
+            <td style="text-align:center; padding-bottom:3px;">
+                    <input type="submit" name="ctl00$ContentPlaceHolder1$btnFindCity" value="Показати" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$btnFindCity&quot;, &quot;&quot;, true, &quot;city&quot;, &quot;&quot;, false, false))" id="ctl00_ContentPlaceHolder1_btnFindCity" class="Button">
+                    <br><br>
+                    
+            </td>            
+        </tr>
+   </tbody></table>
+  
+  
+   
+    <div id="flyout" style="display: none; overflow: hidden; z-index: 2; background-color: #FFFFcc; border: solid 1px #D0D0D0;"></div>
+        
+        <!-- Info panel to be displayed as a flyout when the button is clicked -->
+        <div id="info" style="display: none; width: 420px;  z-index: 2; opacity: 0; filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0); font-size: 12px; border: solid 1px #CCCCCC; background-color: #e0f1ff; padding: 5px;">
+            <div id="btnCloseParent" style="float: right; opacity: 0; filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);">
+                <a onclick="return false;" id="ctl00_ContentPlaceHolder1_btnClose" title="Закрити" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$btnClose&#39;,&#39;&#39;)" style="background-color: #666666; color: #FFFFFF; text-align: center; font-weight: bold; text-decoration: none; border: outset thin #FFFFFF; padding: 5px;">X</a>
+            </div>
+            <br>
+            <div>
+                <p style="text-align:justify">
+                   Пошук по вулиці здійснюється лише для міст та СМТ.
+                   <br>
+Для здійснення пошуку по вулиці необхідно обов’язково зазначити назву населеного пункту. Якщо населений пункт є місто чи СМТ, стане доступним поле «Введіть назву вулиці». 
+<br>
+Для того, щоби швидко знайти необхідну вулицю, варто вказувати перші 3-4 літери назви, не вводячипри цьому типу вулиці (проспект, провулок та інше). 
+Зверніть увагу, що для деяких населених пунктів в дужках може бути вказана приналежність до сільської чи міської ради
+<br>
+Для здійснення пошуку за обласним центром необхідно обрати область, а у полі "Оберіть район" обов’язково вказати "Обласний центр". 
+При цьому поле "Введіть назву вулиці" стане доступним. Наприклад, 
+за необхідності знайти індекс вулиці Поштової у місті Донецьк, параметри мають бути вказані так
+                   
+                </p>               
+                   <p style="text-align:center"><img id="ctl00_ContentPlaceHolder1_imgFind" alt="" src="./post_codes_lviv_files/find.jpg" style="border-width:0px;"></p>
+                   Для усіх інших населених пунктів для пошуку індексів достатньо обрати лише назву населеного пункту.
+            </div>
+        </div>
+  
+</div>  
+<br>
+
+ <div id="ctl00_ContentPlaceHolder1_progress" style="display: none;">
+	
+ <div>    <img src="./post_codes_lviv_files/UpdateProgress.gif" alt="">Зачекайте, здійснюється завантаження даних
+</div>
+ 
+
+</div>      
+  
+
+<div id="ctl00_ContentPlaceHolder1_UpdatePanel3">
+<table><tbody><tr><td valign="top">
+<span id="ctl00_ContentPlaceHolder1_lbCaption">Знайдено 53 записів</span> 
+</td></tr><tr><td valign="top"><br>
+
+<div>
+	<table class="grid" cellspacing="0" cellpadding="5" rules="rows" border="1" id="ctl00_ContentPlaceHolder1_dgResult" style="border-color:Silver;border-width:1px;border-style:Solid;width:100%;border-collapse:collapse;">
+		<tbody><tr>
+			<th align="center" scope="col">Індекс</th><th align="center" scope="col">Область</th><th align="center" scope="col">Район</th><th align="center" scope="col">Населений пункт</th><th align="center" scope="col">До переіменування✱</th><th scope="col">ВПЗ, що обслуговує</th>
+		</tr><tr>
+			<td align="center" style="width:50px;">53046</td><td align="center" style="width:150px;">Дніпропетровська</td><td align="center" style="width:150px;">Криворізький</td><td align="center" style="width:100px;">Львів  (Веселівська сільська рада)</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=32000100664978">ВПЗ Веселе</a></td>
+		</tr><tr>
+			<td align="center" style="width:50px;">84027</td><td align="center" style="width:150px;">Донецька</td><td align="center" style="width:150px;">Олександрівський</td><td align="center" style="width:100px;">Львівка</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=33000000009919">ВПЗ Михайлівка</a></td>
+		</tr><tr>
+			<td align="center" style="width:50px;">79000</td><td align="center" style="width:150px;">Львівська</td><td align="center" style="width:150px;">&nbsp;</td><td align="center" style="width:100px;">Львів</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=33000000106565">ВПЗ Львів-поштамт</a></td>
+		</tr><tr>
+			<td align="center" style="width:50px;">79002</td><td align="center" style="width:150px;">Львівська</td><td align="center" style="width:150px;">&nbsp;</td><td align="center" style="width:100px;">Львів</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=33000000056372">ВПЗ Львів 2</a></td>
+		</tr><tr>
+			<td align="center" style="width:50px;">79003</td><td align="center" style="width:150px;">Львівська</td><td align="center" style="width:150px;">&nbsp;</td><td align="center" style="width:100px;">Львів</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=33000000019690">ВПЗ Львів 3</a></td>
+		</tr><tr>
+			<td align="center" style="width:50px;">79005</td><td align="center" style="width:150px;">Львівська</td><td align="center" style="width:150px;">&nbsp;</td><td align="center" style="width:100px;">Львів</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=33000000056374">ВПЗ Львів 5</a></td>
+		</tr><tr>
+			<td align="center" style="width:50px;">79006</td><td align="center" style="width:150px;">Львівська</td><td align="center" style="width:150px;">&nbsp;</td><td align="center" style="width:100px;">Львів</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=33000000020789">ВПЗ Львів 6</a></td>
+		</tr><tr>
+			<td align="center" style="width:50px;">79007</td><td align="center" style="width:150px;">Львівська</td><td align="center" style="width:150px;">&nbsp;</td><td align="center" style="width:100px;">Львів</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=33000000020804">ВПЗ Львів 7</a></td>
+		</tr><tr>
+			<td align="center" style="width:50px;">79008</td><td align="center" style="width:150px;">Львівська</td><td align="center" style="width:150px;">&nbsp;</td><td align="center" style="width:100px;">Львів</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=33000000020823">ВПЗ Львів 8</a></td>
+		</tr><tr>
+			<td align="center" style="width:50px;">79010</td><td align="center" style="width:150px;">Львівська</td><td align="center" style="width:150px;">&nbsp;</td><td align="center" style="width:100px;">Львів</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=32000100709900">ВПЗ Львів 10</a></td>
+		</tr><tr>
+			<td align="center" style="width:50px;">79011</td><td align="center" style="width:150px;">Львівська</td><td align="center" style="width:150px;">&nbsp;</td><td align="center" style="width:100px;">Львів</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=33000000020861">ВПЗ Львів 11</a></td>
+		</tr><tr>
+			<td align="center" style="width:50px;">79012</td><td align="center" style="width:150px;">Львівська</td><td align="center" style="width:150px;">&nbsp;</td><td align="center" style="width:100px;">Львів</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=33000000020892">ВПЗ Львів 12</a></td>
+		</tr><tr>
+			<td align="center" style="width:50px;">79013</td><td align="center" style="width:150px;">Львівська</td><td align="center" style="width:150px;">&nbsp;</td><td align="center" style="width:100px;">Львів</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=33000000020948">ВПЗ Львів 13</a></td>
+		</tr><tr>
+			<td align="center" style="width:50px;">79014</td><td align="center" style="width:150px;">Львівська</td><td align="center" style="width:150px;">&nbsp;</td><td align="center" style="width:100px;">Львів</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=33000000020960">ВПЗ Львів 14</a></td>
+		</tr><tr>
+			<td align="center" style="width:50px;">79016</td><td align="center" style="width:150px;">Львівська</td><td align="center" style="width:150px;">&nbsp;</td><td align="center" style="width:100px;">Львів</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=33000000020991">ВПЗ Львів 16</a></td>
+		</tr><tr>
+			<td align="center" style="width:50px;">79016</td><td align="center" style="width:150px;">Львівська</td><td align="center" style="width:150px;">&nbsp;</td><td align="center" style="width:100px;">Львів</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=33000001431012">ТПС Львів 16 Львівської дирекції ПАТ 'Укрпошта'</a></td>
+		</tr><tr>
+			<td align="center" style="width:50px;">79017</td><td align="center" style="width:150px;">Львівська</td><td align="center" style="width:150px;">&nbsp;</td><td align="center" style="width:100px;">Львів</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=33000000021020">ВПЗ Львів 17</a></td>
+		</tr><tr>
+			<td align="center" style="width:50px;">79018</td><td align="center" style="width:150px;">Львівська</td><td align="center" style="width:150px;">&nbsp;</td><td align="center" style="width:100px;">Львів</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=33000000022365">ВПЗ Львів 18</a></td>
+		</tr><tr>
+			<td align="center" style="width:50px;">79019</td><td align="center" style="width:150px;">Львівська</td><td align="center" style="width:150px;">&nbsp;</td><td align="center" style="width:100px;">Львів</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=33000000022425">ВПЗ Львів 19</a></td>
+		</tr><tr>
+			<td align="center" style="width:50px;">79020</td><td align="center" style="width:150px;">Львівська</td><td align="center" style="width:150px;">&nbsp;</td><td align="center" style="width:100px;">Львів</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=33000000022479">ВПЗ Львів 20</a></td>
+		</tr><tr>
+			<td align="center" style="width:50px;">79021</td><td align="center" style="width:150px;">Львівська</td><td align="center" style="width:150px;">&nbsp;</td><td align="center" style="width:100px;">Львів</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=33000000022528">ВПЗ Львів 21</a></td>
+		</tr><tr>
+			<td align="center" style="width:50px;">79022</td><td align="center" style="width:150px;">Львівська</td><td align="center" style="width:150px;">&nbsp;</td><td align="center" style="width:100px;">Львів</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=33000000022561">ВПЗ Львів 22</a></td>
+		</tr><tr>
+			<td align="center" style="width:50px;">79023</td><td align="center" style="width:150px;">Львівська</td><td align="center" style="width:150px;">&nbsp;</td><td align="center" style="width:100px;">Львів</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=33000000022593">ВПЗ Львів 23</a></td>
+		</tr><tr>
+			<td align="center" style="width:50px;">79024</td><td align="center" style="width:150px;">Львівська</td><td align="center" style="width:150px;">&nbsp;</td><td align="center" style="width:100px;">Львів</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=33000000022655">ВПЗ Львів 24</a></td>
+		</tr><tr>
+			<td align="center" style="width:50px;">79025</td><td align="center" style="width:150px;">Львівська</td><td align="center" style="width:150px;">&nbsp;</td><td align="center" style="width:100px;">Львів</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=33000000022677">ВПЗ Львів 25</a></td>
+		</tr><tr>
+			<td align="center" style="width:50px;">79026</td><td align="center" style="width:150px;">Львівська</td><td align="center" style="width:150px;">&nbsp;</td><td align="center" style="width:100px;">Львів</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=33000000022700">ВПЗ Львів 26</a></td>
+		</tr><tr>
+			<td align="center" style="width:50px;">79031</td><td align="center" style="width:150px;">Львівська</td><td align="center" style="width:150px;">&nbsp;</td><td align="center" style="width:100px;">Львів</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=33000000022720">ВПЗ Львів 31</a></td>
+		</tr><tr>
+			<td align="center" style="width:50px;">79032</td><td align="center" style="width:150px;">Львівська</td><td align="center" style="width:150px;">&nbsp;</td><td align="center" style="width:100px;">Львів</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=33000000022740">ВПЗ Львів 32</a></td>
+		</tr><tr>
+			<td align="center" style="width:50px;">79034</td><td align="center" style="width:150px;">Львівська</td><td align="center" style="width:150px;">&nbsp;</td><td align="center" style="width:100px;">Львів</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=33000000022774">ВПЗ Львів 34</a></td>
+		</tr><tr>
+			<td align="center" style="width:50px;">79035</td><td align="center" style="width:150px;">Львівська</td><td align="center" style="width:150px;">&nbsp;</td><td align="center" style="width:100px;">Львів</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=33000000022815">ВПЗ Львів 35</a></td>
+		</tr><tr>
+			<td align="center" style="width:50px;">79037</td><td align="center" style="width:150px;">Львівська</td><td align="center" style="width:150px;">&nbsp;</td><td align="center" style="width:100px;">Львів</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=33000000022846">ВПЗ Львів 37</a></td>
+		</tr><tr>
+			<td align="center" style="width:50px;">79038</td><td align="center" style="width:150px;">Львівська</td><td align="center" style="width:150px;">&nbsp;</td><td align="center" style="width:100px;">Львів</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=33000000022888">ВПЗ Львів 38</a></td>
+		</tr><tr>
+			<td align="center" style="width:50px;">79039</td><td align="center" style="width:150px;">Львівська</td><td align="center" style="width:150px;">&nbsp;</td><td align="center" style="width:100px;">Львів</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=33000000022906">ВПЗ Львів 39</a></td>
+		</tr><tr>
+			<td align="center" style="width:50px;">79040</td><td align="center" style="width:150px;">Львівська</td><td align="center" style="width:150px;">&nbsp;</td><td align="center" style="width:100px;">Львів</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=33000000022960">ВПЗ Львів 40</a></td>
+		</tr><tr>
+			<td align="center" style="width:50px;">79041</td><td align="center" style="width:150px;">Львівська</td><td align="center" style="width:150px;">&nbsp;</td><td align="center" style="width:100px;">Львів</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=33000000022990">ВПЗ Львів 41</a></td>
+		</tr><tr>
+			<td align="center" style="width:50px;">79044</td><td align="center" style="width:150px;">Львівська</td><td align="center" style="width:150px;">&nbsp;</td><td align="center" style="width:100px;">Львів</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=33000000023004">ВПЗ Львів 44</a></td>
+		</tr><tr>
+			<td align="center" style="width:50px;">79049</td><td align="center" style="width:150px;">Львівська</td><td align="center" style="width:150px;">&nbsp;</td><td align="center" style="width:100px;">Львів</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=33000000023049">ВПЗ Львів 49</a></td>
+		</tr><tr>
+			<td align="center" style="width:50px;">79052</td><td align="center" style="width:150px;">Львівська</td><td align="center" style="width:150px;">&nbsp;</td><td align="center" style="width:100px;">Львів</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=33000000023066">ВПЗ Львів 52</a></td>
+		</tr><tr>
+			<td align="center" style="width:50px;">79053</td><td align="center" style="width:150px;">Львівська</td><td align="center" style="width:150px;">&nbsp;</td><td align="center" style="width:100px;">Львів</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=33000000023075">ВПЗ Львів 53</a></td>
+		</tr><tr>
+			<td align="center" style="width:50px;">79054</td><td align="center" style="width:150px;">Львівська</td><td align="center" style="width:150px;">&nbsp;</td><td align="center" style="width:100px;">Львів</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=33000000023082">ВПЗ Львів 54</a></td>
+		</tr><tr>
+			<td align="center" style="width:50px;">79057</td><td align="center" style="width:150px;">Львівська</td><td align="center" style="width:150px;">&nbsp;</td><td align="center" style="width:100px;">Львів</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=33000000023096">ВПЗ Львів 57</a></td>
+		</tr><tr>
+			<td align="center" style="width:50px;">79059</td><td align="center" style="width:150px;">Львівська</td><td align="center" style="width:150px;">&nbsp;</td><td align="center" style="width:100px;">Львів</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=33000000023116">ВПЗ Львів 59</a></td>
+		</tr><tr>
+			<td align="center" style="width:50px;">79060</td><td align="center" style="width:150px;">Львівська</td><td align="center" style="width:150px;">&nbsp;</td><td align="center" style="width:100px;">Львів</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=33000000023123">ВПЗ Львів 60</a></td>
+		</tr><tr>
+			<td align="center" style="width:50px;">79066</td><td align="center" style="width:150px;">Львівська</td><td align="center" style="width:150px;">&nbsp;</td><td align="center" style="width:100px;">Львів</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=33000000023129">ВПЗ Львів 66</a></td>
+		</tr><tr>
+			<td align="center" style="width:50px;">79067</td><td align="center" style="width:150px;">Львівська</td><td align="center" style="width:150px;">&nbsp;</td><td align="center" style="width:100px;">Львів</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=33000000023142">ВПЗ Львів 67</a></td>
+		</tr><tr>
+			<td align="center" style="width:50px;">79068</td><td align="center" style="width:150px;">Львівська</td><td align="center" style="width:150px;">&nbsp;</td><td align="center" style="width:100px;">Львів</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=33000000023152">ВПЗ Львів 68</a></td>
+		</tr><tr>
+			<td align="center" style="width:50px;">79069</td><td align="center" style="width:150px;">Львівська</td><td align="center" style="width:150px;">&nbsp;</td><td align="center" style="width:100px;">Львів</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=33000000023165">ВПЗ Львів 69</a></td>
+		</tr><tr>
+			<td align="center" style="width:50px;">79070</td><td align="center" style="width:150px;">Львівська</td><td align="center" style="width:150px;">&nbsp;</td><td align="center" style="width:100px;">Львів</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=33000000023178">ВПЗ Львів 70</a></td>
+		</tr><tr>
+			<td align="center" style="width:50px;">79071</td><td align="center" style="width:150px;">Львівська</td><td align="center" style="width:150px;">&nbsp;</td><td align="center" style="width:100px;">Львів</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=33000000023333">ВПЗ Львів 71</a></td>
+		</tr><tr>
+			<td align="center" style="width:50px;">55273</td><td align="center" style="width:150px;">Миколаївська</td><td align="center" style="width:150px;">Первомайський</td><td align="center" style="width:100px;">Львів  (Романово-Балківська)</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=33000000046839">ВПЗ Романова Балка</a></td>
+		</tr><tr>
+			<td align="center" style="width:50px;">39516</td><td align="center" style="width:150px;">Полтавська</td><td align="center" style="width:150px;">Карлівський</td><td align="center" style="width:100px;">Львівське</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=33000000049101">ВПЗ Ланна Полтавської дирекції ПАТ 'Укрпошта'</a></td>
+		</tr><tr>
+			<td align="center" style="width:50px;">74318</td><td align="center" style="width:150px;">Херсонська</td><td align="center" style="width:150px;">Бериславський</td><td align="center" style="width:100px;">Львівські Отруби</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=32000101010483">ВПЗ Високе</a></td>
+		</tr><tr>
+			<td align="center" style="width:50px;">19728</td><td align="center" style="width:150px;">Черкаська</td><td align="center" style="width:150px;">Золотоніський</td><td align="center" style="width:100px;">Львівка</td><td align="center" style="width:100px;">&nbsp;</td><td><a href="http://services.ukrposhta.com/postindex_new/details.aspx?page=default&amp;postfilial=32000100616921">ВПЗ Скориківка</a></td>
+		</tr>
+	</tbody></table>
+</div> <br>
+    <span id="ctl00_ContentPlaceHolder1_lbldginfo">
+      ✱ назва до переіменування, відповідно Закону України "Про засудження комуністичного та націонал-соціалістичного (нацистського) тоталітарних режимів в Україні та заборони пропаганди їхньої символіки" 
+        <!--<p>*- Стара назва населеного пункту</p>
+        <p>** - Населений пункт підпорядковується сільській раді</p>-->
+    </span>
+              </td></tr></tbody></table>
+</div>
+
+<input type="hidden" name="ctl00$ContentPlaceHolder1$apg0" id="ctl00_ContentPlaceHolder1_apg0" value="3">
+         
+<script language="javascript" type="text/javascript">
+ var exp_size, exp_ctl, exp_lastctl;
+
+function t_expand(){ 
+    var size = exp_ctl.style.height;    
+    var need= 0;
+    if (exp_lastctl){
+       size = exp_lastctl.style.height;
+       size =  eval(size.toString().replace("px",""));
+       size -= 15;
+       if (size < 0 ) size = 0;
+       try { exp_lastctl.style.height = size + "px"; } catch (e) {};
+       if (size!=0) need++;       
+       };
+    size = exp_ctl.style.height;
+    size =  eval(size.toString().replace("px",""));
+    size += 15;
+    if (size > exp_size ) size = exp_size;
+    try { exp_ctl.style.height = size + "px"; } catch (e) {};
+    if ((exp_size!=size)||(need>0)) window.setTimeout("t_expand()",20);
+    };
+
+function p_expand(id_1, size){ 
+   if (exp_ctl == document.getElementById(id_1)) return;
+   document.getElementById("ctl00_ContentPlaceHolder1_apg0").value =  id_1.replace("ctl00_ContentPlaceHolder1_apg","");
+   exp_lastctl = exp_ctl;
+   exp_ctl = document.getElementById(id_1);
+   exp_size = size;
+   window.setTimeout("t_expand()",20);   
+   }
+   
+   
+ if ( document.getElementById("ctl00_ContentPlaceHolder1_lbCaption").innerHTML.length > 0) 
+   window.setTimeout("window.scrollTo(0,300);",100);
+
+</script>
+
+
+    <input type="hidden" name="ctl00$hdLanguage" id="ctl00_hdLanguage" value="2">
+   
+    </td>
+</tr></tbody></table>
+
+
+    </div>
+        
+        
+    
+<script type="text/javascript">
+//<![CDATA[
+var Page_Validators =  new Array(document.getElementById("ctl00_ContentPlaceHolder1_RegularExpressionValidator1"), document.getElementById("ctl00_ContentPlaceHolder1_MaskedEditValidatorTime"), document.getElementById("ctl00_ContentPlaceHolder1_validCity"));
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var ctl00_ContentPlaceHolder1_RegularExpressionValidator1 = document.all ? document.all["ctl00_ContentPlaceHolder1_RegularExpressionValidator1"] : document.getElementById("ctl00_ContentPlaceHolder1_RegularExpressionValidator1");
+ctl00_ContentPlaceHolder1_RegularExpressionValidator1.controltovalidate = "ctl00_ContentPlaceHolder1_txtStreet";
+ctl00_ContentPlaceHolder1_RegularExpressionValidator1.focusOnError = "t";
+ctl00_ContentPlaceHolder1_RegularExpressionValidator1.errormessage = "Вкажіть не менше 3 літер";
+ctl00_ContentPlaceHolder1_RegularExpressionValidator1.display = "Dynamic";
+ctl00_ContentPlaceHolder1_RegularExpressionValidator1.validationGroup = "street";
+ctl00_ContentPlaceHolder1_RegularExpressionValidator1.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+ctl00_ContentPlaceHolder1_RegularExpressionValidator1.validationexpression = "(.|\\s){3,21}";
+var ctl00_ContentPlaceHolder1_MaskedEditValidatorTime = document.all ? document.all["ctl00_ContentPlaceHolder1_MaskedEditValidatorTime"] : document.getElementById("ctl00_ContentPlaceHolder1_MaskedEditValidatorTime");
+ctl00_ContentPlaceHolder1_MaskedEditValidatorTime.controltovalidate = "ctl00_ContentPlaceHolder1_txtTime";
+ctl00_ContentPlaceHolder1_MaskedEditValidatorTime.display = "Dynamic";
+ctl00_ContentPlaceHolder1_MaskedEditValidatorTime.validationGroup = "MKE";
+var ctl00_ContentPlaceHolder1_validCity = document.all ? document.all["ctl00_ContentPlaceHolder1_validCity"] : document.getElementById("ctl00_ContentPlaceHolder1_validCity");
+ctl00_ContentPlaceHolder1_validCity.controltovalidate = "ctl00_ContentPlaceHolder1_txtCity";
+ctl00_ContentPlaceHolder1_validCity.focusOnError = "t";
+ctl00_ContentPlaceHolder1_validCity.errormessage = "Вкажіть не менше 3 літер";
+ctl00_ContentPlaceHolder1_validCity.display = "Dynamic";
+ctl00_ContentPlaceHolder1_validCity.validationGroup = "city";
+ctl00_ContentPlaceHolder1_validCity.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+ctl00_ContentPlaceHolder1_validCity.validationexpression = "(.|\\s){3,21}";
+//]]>
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        Sys.Application.initialize();
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.Animation.AnimationBehavior, {"OnClick":"{\"AnimationName\":\"Sequence\",\"AnimationTarget\":\"info\",\"AnimationChildren\":[{\"AnimationName\":\"StyleAction\",\"Attribute\":\"overflow\",\"Value\":\"hidden\",\"AnimationChildren\":[]},{\"AnimationName\":\"Parallel\",\"Duration\":\".3\",\"Fps\":\"15\",\"AnimationChildren\":[{\"AnimationName\":\"Scale\",\"ScaleFactor\":\"0.05\",\"Center\":\"true\",\"ScaleFont\":\"true\",\"FontUnit\":\"px\",\"AnimationChildren\":[]},{\"AnimationName\":\"FadeOut\",\"AnimationChildren\":[]}]},{\"AnimationName\":\"StyleAction\",\"Attribute\":\"display\",\"Value\":\"none\",\"AnimationChildren\":[]},{\"AnimationName\":\"StyleAction\",\"Attribute\":\"width\",\"Value\":\"420px\",\"AnimationChildren\":[]},{\"AnimationName\":\"StyleAction\",\"Attribute\":\"height\",\"Value\":\"\",\"AnimationChildren\":[]},{\"AnimationName\":\"StyleAction\",\"Attribute\":\"fontSize\",\"Value\":\"12px\",\"AnimationChildren\":[]},{\"AnimationName\":\"OpacityAction\",\"AnimationTarget\":\"btnCloseParent\",\"Opacity\":\"0\",\"AnimationChildren\":[]}]}","OnMouseOut":"{\"AnimationName\":\"Color\",\"Duration\":\".2\",\"PropertyKey\":\"color\",\"StartValue\":\"#a6daff\",\"EndValue\":\"#FFFFFF\",\"AnimationChildren\":[]}","OnMouseOver":"{\"AnimationName\":\"Color\",\"Duration\":\".2\",\"PropertyKey\":\"color\",\"StartValue\":\"#FFFFFF\",\"EndValue\":\"#a6daff\",\"AnimationChildren\":[]}","id":"CloseAnimation"}, null, null, $get("ctl00_ContentPlaceHolder1_btnClose"));
+});
+
+document.getElementById('ctl00_ContentPlaceHolder1_RegularExpressionValidator1').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('ctl00_ContentPlaceHolder1_RegularExpressionValidator1'));
+}
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.MaskedEditBehavior, {"ClientStateFieldID":"ctl00_ContentPlaceHolder1_MaskedEditExtenderTime_ClientState","CultureAMPMPlaceholder":"AM;PM","CultureCurrencySymbolPlaceholder":"$","CultureDateFormat":"MDY","CultureDatePlaceholder":"/","CultureDecimalPlaceholder":".","CultureName":"en-US","CultureThousandsPlaceholder":",","CultureTimePlaceholder":":","Mask":"99:99","MaskType":3,"id":"ctl00_ContentPlaceHolder1_MaskedEditExtenderTime"}, null, null, $get("ctl00_ContentPlaceHolder1_txtTime"));
+});
+
+document.getElementById('ctl00_ContentPlaceHolder1_MaskedEditValidatorTime').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('ctl00_ContentPlaceHolder1_MaskedEditValidatorTime'));
+}
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.CollapsiblePanelBehavior, {"ClientStateFieldID":"ctl00_ContentPlaceHolder1_cpeProperties_ClientState","CollapseControlID":"ctl00_ContentPlaceHolder1_pndHeaderAddition","Collapsed":true,"ExpandControlID":"ctl00_ContentPlaceHolder1_pndHeaderAddition","ImageControlID":"ctl00_ContentPlaceHolder1_imgHeaderAddition","id":"ctl00_ContentPlaceHolder1_cpeProperties"}, null, null, $get("ctl00_ContentPlaceHolder1_pnlTimeWork"));
+});
+
+document.getElementById('ctl00_ContentPlaceHolder1_validCity').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('ctl00_ContentPlaceHolder1_validCity'));
+}
+Sys.Application.add_init(function() {
+    $create(Sys.UI._UpdateProgress, {"associatedUpdatePanelId":null,"displayAfter":500,"dynamicLayout":true}, null, null, $get("ctl00_ContentPlaceHolder1_progress"));
+});
+//]]>
+</script>
+</form>
+    </center>
+
+
+</body></html>
