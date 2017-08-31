@@ -43,3 +43,5 @@ For the detailed description of each script, check out [README](https://github.c
 
 [postal_codes_html](https://github.com/iuliakhomenko/DAND-P3-OpenStreetMap_project/tree/master/postal_codes_html) - folder necessary to audit one of the attributes from the dataset. 
 
+[Sources.txt](https://github.com/iuliakhomenko/DAND-P3-OpenStreetMap_project/blob/master/Sources.txt) - list of websites, blogs and stackoverflow posts used in this project 
+
